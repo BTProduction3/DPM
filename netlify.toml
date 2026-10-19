@@ -1,0 +1,4 @@
+# No build step. Netlify installs the two packages, publishes /public,
+# deploys netlify/functions/api.mjs, and applies netlify/database/migrations.
+[build]
+  publish = "public"
